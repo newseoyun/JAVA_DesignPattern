@@ -1,4 +1,4 @@
-## Iterator Pattern
+# Iterator Pattern
 x사이즈의 책장을 만들고 책을 순서대로 하나씩 추가한다.   
 책장의 책을 순서대로 출력한다.
 ***

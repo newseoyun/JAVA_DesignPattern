@@ -1,4 +1,4 @@
-## Template Method Pattern
+# Template Method Pattern
 상위 클래스에 메소드의 탬플릿을 기술해두고 하위 클래스들은 기술된 탬플릿을 구현한다.   
 이를 인스턴스 생성에 응용한 것이 Factory Pattern 이다.
 ***
