@@ -1,6 +1,9 @@
-# Factory Method Patter
+# Factory Method Pattern
+Template Method Pattern 과 비슷.
 
+*** 
+> framework 패키지에 추상 클래스로 객체와 객체를 다루는 팩토리를 정의해두고 idcard 패키지에서 구현.   
+> 팩토리에서 인스턴스 생성을 제어함.
 ***
->
-> 
-***
+팩토리 추상 클래스를 통해 성질이 다른 여러 인스턴스를 생성할 수 있는 장점이 있음.   
+디폴트 인스턴스, 미구현시의 에러 등을 정의하여 설계 의도를 더 명확히 할 수 있음.
