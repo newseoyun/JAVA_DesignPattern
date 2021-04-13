@@ -1,8 +1,8 @@
 # Prototype Pattern
 인스턴스를 복사하여 새로운 인스턴스를 만든다
 ***
-> *Product* 밑에 *MessageBox*, *UnderlinePen* 두 클래스   
-> *Manager*로 제어
+> 자바 내장 API인 Cloneable 을 상속한 *Product* 인터페이스와 그것을 상속받은 *MessageBox*, *UnderlinePen*   
+> *Manager*로 제어(clone호출)
 ***
 Product 종류가 너무 많을 때,   
 커스텀 많이 된 인스턴스를 또 생성할 필요가 있을 때(클래스로부터 생성이 어려울 때),   
