@@ -21,12 +21,11 @@ public class Main {
 
             String fileName = htmlBuilder.getResult();
 
-            System.out.println(fileName + "가 작성되었습니다.");
+            System.out.println(fileName + "이 작성되었습니다.");
         } else {
             usage();
             System.exit(0);
         }
-
     }
 
     private static void usage() {
