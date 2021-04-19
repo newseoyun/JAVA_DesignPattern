@@ -12,7 +12,7 @@ public class ListPage extends Page {
     }
     public String makeHTML() {
         StringBuffer buffer = new StringBuffer();
-        buffer.append("<html><head><title>" + title + "</title></head>\n");
+        buffer.append("<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>" + title + "</title></head>\n");
         buffer.append("<body>\n");
         buffer.append("<h1>" + title + "</h1>\n");
         buffer.append("<ul>\n");
